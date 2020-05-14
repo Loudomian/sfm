@@ -10,7 +10,7 @@ heroImageStyle: {
 }
 isShowTitleInHome: true
 actionText: 快速上手 →
-actionLink: /views/guide/
+actionLink: /guide/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，简练的文字描述操作。
