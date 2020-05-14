@@ -1,5 +1,5 @@
 ---
-title: '优秀博客案例(不分先后)'
+title: 'SFM创作者案例(不分先后)'
 isShowComments: true
 ---
 

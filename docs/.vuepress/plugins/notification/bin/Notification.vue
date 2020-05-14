@@ -12,9 +12,9 @@
         <h5>欢迎加入Source Filmmaker交流QQ群</h5>
         <img :src="require('./rvcode_qq.png')" alt="">
       </div>
-      <div style="padding: 0 16px">
+      <div style="padding: 0 50px">
         <hr>
-        <a class="btn-donate" href="/views/other/donate.html">打赏</a>
+        <a class="btn-donate" href="/other/donate.html">打赏</a>
       </div>
     </div>
   </transition>

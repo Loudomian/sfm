@@ -32,4 +32,4 @@ features:
 
 :busts_in_silhouette: **群组** :busts_in_silhouette:  丨 你可以通过到 [Source Filmmaker 贴吧官方群组](//shang.qq.com/wpa/qunwpa?idkey=fbecdb9c6864f3aba2d5a6315f7c8b0904a5e104fb8b4a92b9e41468d9ed382d) 来学习。
 
-:heart: **捐赠** :heart: 丨 本站为公益教程页，并没有固定的收入来源，如果你觉得本站有用，欢迎[投食](/views/other/donate)。:moneybag:
+:heart: **捐赠** :heart: 丨 本站为公益教程页，并没有固定的收入来源，如果你觉得本站有用，欢迎[投食](/other/donate)。:moneybag:
