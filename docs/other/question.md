@@ -12,11 +12,11 @@ sidebar: 'auto'
 
 ## 1. 哪里有汉化补丁？
 
-[点这里去专页](/views/guide/hanization-patch.html)
+[点这里去专页](/guide/hanization-patch.html)
 
 ## 2. 为什么我的窗口只有一片灰色？
 
-汉化补丁的BUG，[你需要看这里](/views/guide/hanization-patch-bug.html)
+汉化补丁的BUG，[你需要看这里](/guide/hanization-patch-bug.html)
 
 ## 3. 为什么创意工坊无法连接/报错？
 
@@ -24,4 +24,4 @@ Steam社区目前已经被墙，请通过网易UU进行免费加速
 
 ## 4. 哪里获得模型？
 
-[请查看这里](/views/guide/getting-model.html)
+[请查看这里](/guide/getting-model.html)

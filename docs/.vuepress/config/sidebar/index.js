@@ -1,6 +1,6 @@
 module.exports = {
   'zh': Object.assign({}, {
-    '/views/guide/': [
+    '/guide/': [
       {
         title: '📝总览',
         collapsable: false,
@@ -63,7 +63,7 @@ module.exports = {
         ]
       }
     ],
-    '/views/repertory/': [
+    '/repertory/': [
       {
         title: '📝总览',
         collapsable: false,

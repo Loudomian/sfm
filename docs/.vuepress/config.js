@@ -2,7 +2,6 @@ const path = require('path')
 const themeConfig = require('./config/theme/')
 
 module.exports = {
-  dest: 'public',
   // base: '/vuepress-theme-reco-doc/',
   head: [
     ['link', { rel: 'icon', href: 'https://pic.downk.cc/item/5ea12fccc2a9a83be5ace97b.png' }],

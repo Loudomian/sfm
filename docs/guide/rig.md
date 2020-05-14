@@ -9,7 +9,7 @@ Rig 中文译名索具，即装配船帆的索具。在 Source Filmmaker 里，�
 而 Rig 又可以分为 FK Rig（默认/正向动力学骨架）、IK Rig（反向动力学骨架）、Animations Rig（动画骨架）通过阅读本指南你可以了解到三种骨骼的特性与实操效果。
 
 ::: tip 提示
-你可以通过[ [这里](/views/repertory/scripts.html#rig) ]找到各种 Rig 的下载与介绍。
+你可以通过[ [这里](/repertory/scripts.html#rig) ]找到各种 Rig 的下载与介绍。
 :::
 ## FK Rig（默认/正向动力骨架）
 
