@@ -19,18 +19,18 @@ module.exports = {
     },
     // 当前 locale 的 algolia docsearch 选项
     //algolia: {
-    //   start_urls: [
-    //  {
-    //     "url": "https://vuepress-theme-reco.recoluan.com/"
-    //  }
-    //  ],
-    //  apiKey: '97357e58cac743c6de62036cb152f18b',
-    //  indexName: 'vuepress-theme-reco'
+    //start_urls: [
+    //{
+    //"url": "https://vuepress-theme-reco.recoluan.com/"
+    //}
+    //],
+    //apiKey: '97357e58cac743c6de62036cb152f18b',
+    //indexName: 'vuepress-theme-reco'
     // inputSelector: '### REPLACE ME ####',
     // algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
     // debug: false // Set debug to true if you want to inspect the dropdown
+    //},
+    nav: nav.zh,
+    sidebar: sidebar.zh
   },
-  nav: nav.zh,
-  sidebar: sidebar.zh
-},
 }
