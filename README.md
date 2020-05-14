@@ -1,8 +1,4 @@
-<div align=center><img width="150" height="150" src="https://user-images.githubusercontent.com/40517361/50559381-75a7ca80-0d31-11e9-85a5-63e068051006.png"/></div>
-
----
-
-# Soka.wang丨Loudomian‘s Blog
+# SFM学习笔记丨Soka.wang
 使用 [Vuepress](https://github.com/vuejs/vuepress) 部署于 [Netlify](https://app.netlify.com/) 采用 [Reco主题](https://github.com/vuepress-reco/) 利用 [Valine](https://valine.js.org/) 作为评论工具。
 
 ## 关于
