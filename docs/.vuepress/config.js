@@ -61,15 +61,5 @@ module.exports = {
         componentsDir: path.resolve(__dirname, './demo')
       }
     ],
-    '@vuepress-reco/extract-code',
-    'flowchart',
-    ['sitemap', {
-      hostname: 'https://sfm.soka.wang'
-    }],
-    ['@vuepress-reco/rss', {
-      site_url: 'https://sfm.soka.wang',
-      copyright: ''
-    }],
-    require('./plugins/notification/index')
   ]
 }  
