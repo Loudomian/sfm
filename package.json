@@ -4,7 +4,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "build": "vuepress build docs"
   },
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-rss": "1.0.0",
