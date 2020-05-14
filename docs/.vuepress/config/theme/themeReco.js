@@ -7,10 +7,10 @@ module.exports = {
   // 自动形成侧边导航
   sidebar: 'auto',
   // 最后更新时间
-  lastUpdated: 'Last Updated', // string | boolean
+  lastUpdated: '最后更新', // string | boolean
   // 作者
   author: 'Loudomian',
-  authorAvatar: '/head.png',
+  authorAvatar: 'https://pic.downk.cc/item/5ebcfb45c2a9a83be54154ac.png',
   // 备案号
   // record: '京ICP备17067634号-1',
   // 项目开始时间
