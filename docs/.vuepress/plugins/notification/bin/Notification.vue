@@ -10,7 +10,7 @@
       </h4>
       <div class="notification-content">
         <h5>欢迎加入Source Filmmaker交流QQ群</h5>
-        <img :src="require('https://pic.downk.cc/item/5ebd6c78c2a9a83be5b39774.png')" alt="">
+        <img :src="require('./rvcode_qq.png')" alt="">
       </div>
       <div style="padding: 0 16px">
         <hr>
