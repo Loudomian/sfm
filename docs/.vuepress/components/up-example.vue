@@ -1,5 +1,5 @@
 <template>
-  <div class="theme-example">
+  <div class="up-example">
     <div class="blog-list-wrapper">
       <div class="blog-item" v-for="(blog, index) in examplesData" :key="index">
         <img class="thumbnail" :src="blog.thumbnail" alt="缩略图">
@@ -27,7 +27,7 @@ export default {
 
 
 <style lang="stylus" scoped>
-.theme-example
+.up-example
   .blog-list-wrapper
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +65,7 @@ export default {
         transform scale(1.05)
 
 @media (max-width: $MQMobile)
-  .theme-example
+  .up-example
     .blog-list-wrapper
       .blog-item
         width 100%

@@ -1,5 +1,5 @@
 ---
-title: 'SFM创作者案例(不分先后)'
+title: 'SFM创作者实例(不分先后)'
 isShowComments: true
 ---
 
