@@ -60,7 +60,6 @@ module.exports = {
         componentsDir: path.resolve(__dirname, './demo')
       }
     ],
-    '@vuepress-reco/extract-code',
     'flowchart',
     ['sitemap', {
       hostname: 'https://sfm.soka.wang'
