@@ -25,7 +25,7 @@ export default [
   },
   {
     name: 'HL2_AWPP',
-    desc: 'Half-Life 狂热 SFM 创作者',
+    desc: 'Half-Life/CSGO SFM 创作者',
     link: 'https://space.bilibili.com/22672652',
     thumbnail: 'https://pic.downk.cc/item/5ebe0ce9c2a9a83be54eefd7.jpg'
   },
