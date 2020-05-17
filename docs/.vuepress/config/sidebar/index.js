@@ -63,6 +63,17 @@ module.exports = {
         ]
       }
     ],
+    '/instance/Poster/': [
+      {
+        title: '📓海报实例',
+        collapsable: false,
+        children: [
+          '',
+          'posting-well',
+          'lens&scenebuild'
+        ]
+      }
+    ],
     '/repertory/': [
       {
         title: '📝总览',

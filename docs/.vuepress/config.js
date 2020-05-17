@@ -12,9 +12,9 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#42b983' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: '/icon_vuepress_reco.png' }],
-    ['link', { rel: 'mask-icon', href: '/icon_vuepress_reco.svg', color: '#42b983' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icon_vuepress_reco.png' }],
+    ['link', { rel: 'apple-touch-icon', href: 'https://pic.downk.cc/item/5ea12fccc2a9a83be5ace97b.png' }],
+    ['link', { rel: 'mask-icon', href: 'https://pic.downk.cc/item/5ea12fccc2a9a83be5ace97b.png', color: '#42b983' }],
+    ['meta', { name: 'msapplication-TileImage', content: 'https://pic.downk.cc/item/5ea12fccc2a9a83be5ace97b.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['script', { 'ata-ad-client': 'ca-pub-9709755052957993', async: 'async', src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' }]
   ],
