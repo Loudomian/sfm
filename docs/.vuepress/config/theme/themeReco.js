@@ -26,7 +26,7 @@ module.exports = {
   valineConfig: {
     appId: '9P3O1CQ1GP0Xjxm0XClqBHkP-gzGzoHsz',
     appKey: 'nB2WH6kTTtIKVwtLfpFxGO41',
-    placeholder: '填写邮箱可以收到回复提醒哦！',
+    placeholder: '留下你的足迹！',
     verify: true, // 验证码服务
     // notify: true, // 
     recordIP: true,
@@ -49,6 +49,5 @@ module.exports = {
   // // 默认是 false, 设置为 true 来启用
   editLinks: true,
   mode: 'light',
-  sidebar: 'auto',
-  logo: 'https://pic.downk.cc/item/5ea12fccc2a9a83be5ace97b.png'
+  logo: 'https://sc02.alicdn.com/kf/H935f1cf571d04eaf94cf95b1577b3eceP.png'
 }
