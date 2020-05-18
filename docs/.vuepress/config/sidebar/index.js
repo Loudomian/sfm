@@ -41,6 +41,7 @@ module.exports = {
         collapsable: false,
         children: [
           'fuck-vmt',
+          'vmt2-nua'
         ]
       },
       {
