@@ -25,7 +25,7 @@ $ selfillum <bool>
 起源的自发光引擎更合适的叫法应该是“无明暗”（blender里的无明暗）：无视任何光线效果，包括hdr地图光，也包括灯光light，最终的效果是强制着色为贴图原本的颜色，就是再vtfedit或者ps软件里看到的效果，是什么颜色就显示什么颜色，所以基本上没啥用，我确实想不到禁用光照有什么用处？
 
 看一下效果啊
-![](https://img-blog.csdnimg.cn/20200321185416175.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)左图是不打光，右侧是打光，可以明显看到即使不打光的情况下模型也会特别的亮
+![](https://pic.downk.cc/item/5ec259a5c2a9a83be58b60d0.png)左图是不打光，右侧是打光，可以明显看到即使不打光的情况下模型也会特别的亮
 下面是部分参数写法
 
 ```
@@ -33,21 +33,21 @@ $ selfillum <bool>
  	$selfillummask "cold\white"//（自发光）的贴图
 ```
 
-![](https://img-blog.csdnimg.cn/20200321185621121.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)
+![](https://pic.downk.cc/item/5ec259a5c2a9a83be58b60d6.png)
 
 其中的white就是一张纯白色的图片，用来提供白色光，给自身着色，但是不会影响其他地方的模型，因为本身没产生光源
-![](https://img-blog.csdnimg.cn/20200321185933760.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)所以如果用这个参数制作发光效果，还需要用到自己建的一个光，打在旁边。效果如下
-![](https://img-blog.csdnimg.cn/20200321190140906.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)
+![](https://pic.downk.cc/item/5ec259a5c2a9a83be58b60dd.png)所以如果用这个参数制作发光效果，还需要用到自己建的一个光，打在旁边。效果如下
+![](https://pic.downk.cc/item/5ec259a5c2a9a83be58b60e3.png)
 如果你觉得这个光实在太亮了，要调整的话只能通过修改贴图的颜色或者亮度才能达成目的，**经测试，其他参数都没有用，只有这个办法。只要加了其他参数，此效果就会失效**
 
 下面测试使用测色自发光贴图：
-![](https://img-blog.csdnimg.cn/20200321191724886.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)哇，这也太赛博朋克了。
+![](https://pic.downk.cc/item/5ec259a5c2a9a83be58b60cb.png)哇，这也太赛博朋克了。
 要说明的一点，这个贴图是根据UV分布的，所以很实用吧。
 
 cold佬说：这个自发光参数适合于各种霓虹灯模型，但唯一缺点就是无法对附近模型产生影响。
 
 所以相当于一个无明暗的贴图叠加吧，因为其他函数一使用就必定卡bug导致效果失效。**确实会失效，而且在vmt显示青色的参数是根本不会起作用的参数**
-![](https://img-blog.csdnimg.cn/20200321192429226.png)
+![](https://pic.downk.cc/item/5ec259abc2a9a83be58b79a3.png)
 总结：$ selfillum是开关
 $ selfillummask是自发光的贴图
 
@@ -79,20 +79,20 @@ $detail "cold\white" //texture
 
 
 那看一下效果：
-![](https://img-blog.csdnimg.cn/20200321193808310.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)
+![](https://pic.downk.cc/item/5ec259abc2a9a83be58b79a8.png)
 没有用的参数： $ detailtint
 
 
-# 下面是官方说的envmap假冒自发光
-这个我不确定有没有用，我使用了方形白色贴图写到了envmap的参数里，但是没有效果，连基础的envmap效果也没有，所以这个应该只能识别六面的起源hdr贴图，还没有试，后面可能会试试吧。精力不足啊！
+# 下面是官方说的envmap假冒自发光(我测试失败)
+这个我测试时候使用了方形白色贴图写到了envmap的参数里，但是没有效果，连基础的envmap效果也没有。
 
-
+所以这个应该只能识别六面的起源hdr贴图，还没有试，后面可能会试试吧。精力不足啊！
 
 所以，这个自发光的函数确实不太给力啊
 
-# 下面上个其他模型的图
-通过打光啊，vmt啊最终实现了一个落地灯？
-![](https://img-blog.csdnimg.cn/20200321195932936.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)
+# 成果展示
+通过打光啊，改写vmt啊，最终实现了一个落地灯
+![](https://pic.downk.cc/item/5ec259abc2a9a83be58b79ad.png)
 说一下我的思路哈，首先发亮的部分用第一个或者第二个方法模拟它自己本身的亮度，然后再打一个小光模拟它照明的基座之类的东西。
 下面是vmt写法：
 
@@ -121,6 +121,6 @@ $detail "cold\white" //texture
 ```
 
 然后是放一下网络原图：
-![](https://img-blog.csdnimg.cn/20200321200505866.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)
+![](https://pic.downk.cc/item/5ec259abc2a9a83be58b79b9.png)
 论坛原文[valve开发者论坛-Glowing Textures](https://developer.valvesoftware.com/wiki/Glowing_Textures#.24selfillum_textures)
 
