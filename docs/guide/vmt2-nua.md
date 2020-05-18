@@ -1,7 +1,8 @@
 ---
-titile: NUA喜欢.vmt
+title: NUA喜欢.vmt
 author: NUA努努
 ---
+
 谢邀，人在航母，刚下蒙古。
 
 在更新vmt科普之前呢，
