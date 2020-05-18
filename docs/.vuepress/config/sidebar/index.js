@@ -70,7 +70,8 @@ module.exports = {
         children: [
           '',
           'posting-well',
-          'lens&scenebuild'
+          'lens&scenebuild',
+          'lighting'
         ]
       }
     ],
