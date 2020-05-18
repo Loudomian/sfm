@@ -9,7 +9,10 @@
         </i>
       </h4>
       <div class="notification-content">
-        <h5>欢迎加入Source Filmmaker交流QQ群</h5>
+        <h5>欢迎加入Source Filmmaker交流QQ群
+           <br />
+           新文档：“海报” 已经加入实例子栏目
+        </h5>
         <img :src="require('./rvcode_qq.png')" alt="">
       </div>
       <div style="padding: 0 16px">
