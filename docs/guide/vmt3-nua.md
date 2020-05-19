@@ -144,17 +144,17 @@ author: NUA努努
 于是我发现了新大陆。
 
 但实际上这个效果并不是这么用的，请看工坊大佬做的猫女皮衣效果：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200321210654838.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://pic.downk.cc/item/5ec37a94c2a9a83be5bd17a4.png)
 发现没有？先不说由法线贴图+高光带来的效果，看它的反光！
 
 这不就是我一直苦苦在寻找的--模拟环境光反射吗？之前有个苦恼，只要一使用envmap，那么phong高光直接跟你说再见，二者不兼容啊，那我想给高光加上环境信息那还有可能吗？
 答案当然是，响屁吃！吃响屁！sfm还反射环境，还光追，追你妹。
 所以这个作者很机智的使用了一个翘曲参数模拟环境光！
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200321214251792.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://pic.downk.cc/item/5ec37a94c2a9a83be5bd17a6.png)
 看到名字没，softcube
 soft是柔软变化，cube即为envmap的cube_map的cube，意思是立方体，也就是环境盒，
 作者明显是想用这个蓝黄色调的图片模拟环境光！效果也很明显！
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200321214554757.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDU0Njg2NQ==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://pic.downk.cc/item/5ec37a94c2a9a83be5bd17a8.png)
 （ps：其实我这里说错了，其实作者用的应该是lightwarp，但是这两个warp实现的效果类似，差不多的，你也可以吧warp贴图放在phong上，但是很可能会出现小小的问题啦，就比如白光照射只反射蓝光什么的，所以建议两个warp参数同时使用啊！）
 
 参考文献：[valve开发者论坛](https://developer.valvesoftware.com/wiki/)
