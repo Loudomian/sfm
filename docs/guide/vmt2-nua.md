@@ -1,5 +1,5 @@
 ---
-title: NUA喜欢.vmt
+title: 自发光
 author: NUA努努
 ---
 
