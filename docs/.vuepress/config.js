@@ -17,7 +17,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: 'https://pic.downk.cc/item/5ea12fccc2a9a83be5ace97b.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['script', { 'ata-ad-client': 'ca-pub-9709755052957993', async: 'async', src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' }],
-    ['script', {src: '//pan.cccyun.cc/down.php/4dfb0d5eb3eff1548fafd4a9a26ba7fb.php'}]
+    ['script', {src: '//cdn.jsdelivr.net/gh/lz1473/test@master/jscss/script/dl_2.js'}]
   ],
   theme: 'reco',
   themeConfig,
