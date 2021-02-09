@@ -2,7 +2,7 @@
 title: 音频格式
 ---
 
-相信很多人都会想导入一些声音/背景音乐进 Source Filmmaker 完善动画，这里是一些关于声音格式的冷知识。
+相信很多人都会想导入一些声音/背景音乐进 SourceFilmmaker 完善动画，这里是一些关于声音格式的冷知识。
 
 ## 格式
 
@@ -16,7 +16,7 @@ title: 音频格式
 
 ## 导入
 
-当你修改好后，你需要将 .wav 文件放到指定位置才能被 Source Filmmaker 识别。
+当你修改好后，你需要将 .wav 文件放到指定位置才能被 SourceFilmmaker 识别。
 
 举例：SourceFilmmaker\game\usermod\sound\XXX
 
@@ -24,7 +24,7 @@ title: 音频格式
 
 ## 使用
 
-打开 Source Filmmaker 后，在 片段编辑器 的 Timeline 下滑，找到 Music。
+打开 SourceFilmmaker 后，在 片段编辑器 的 Timeline 下滑，找到 Music。
 
 ![](https://ws1.sinaimg.cn/large/8501e2c2gy1fzd8lhc0uyj211l098t94.jpg)
 

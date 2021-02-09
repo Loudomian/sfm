@@ -1,21 +1,9 @@
 ---
-title: 我爱你.vmt
+title: 初识vmt
 author: NUA努努 | Loudomian
 ---
 
-::: warning 注意
-仍在编写中！
-:::
-
-::: tip 提示
-**Nua努努** 为本篇作者
-
-**Loudomian** 进行排版与注释
-
-[**Valve开发者社区**](https://developer.valvesoftware.com/wiki/Main_Page) 提供技术支持
-:::
-
-本文创作于 Nua 的 Workshop 被爆破后一段时间，借此
+> [**Valve 开发者社区**](https://developer.valvesoftware.com/wiki/Main_Page) 提供文献技术支持
 
 # .vmt 是什么
 
@@ -306,7 +294,7 @@ author: NUA努努 | Loudomian
 
 > （省略了6个仅用于csgo的参数和2个07年淘汰的参数）
 
-#### 四、酱糊基础贴图的救星：细节贴图$ detail
+### 四、酱糊基础贴图的救星：细节贴图$ detail
 当基础贴图分辨率不太高而模型贼大，把贴图拉的糊成一片的时候，细节贴图就能发挥作用了，相当于一个正片叠底的PS图层啦，在原有的贴图上叠加一层贴图，可大可小，可调整透明度等等参数，当然也可以用于衣服的纹理细节上面（如果用凹凸贴图表现衣服纹理的话必须开启照明光才能看出来，细节贴图就算不开光照也可以看出来）
 
 ![](https://img-blog.csdnimg.cn/20200317204757196.jpg)
@@ -316,7 +304,7 @@ author: NUA努努 | Loudomian
     $detail <texture>
 
 
-##### 二级参数：
+#### 二级参数：
 | 二级参数 | 功能 | 值类型 |
 |--|--|--|
 | $detailtexturetransform | 旋转，缩放等细节纹理。 | 字符串/数组 |
@@ -326,7 +314,7 @@ author: NUA努努 | Loudomian
 | $detailtint | 修改细节纹理的颜色。 | RGB数组 |
 | $detailframe | 启用动态细节纹理 | 整数 |
 
-##### 例子：
+#### 例子：
     
     $ detail "detail\metal_detail_01" 
     $ detailtexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0 0"
@@ -335,14 +323,14 @@ author: NUA努努 | Loudomian
     $ detailblendmode 0
     
 详细说几个参数：
-###### 1.$detailtexturetransform:
+##### 1.$detailtexturetransform:
 默认位置是"center .5 .5 scale 1 1 rotate 0 translate 0 0"。
 1. center定义旋转点。仅rotate在使用时有用。
 2. scale将纹理适合给定次数的材质。' 2 1'是X轴上50％的比例。
 3. rotate旋转纹理柜台度-clockwise。接受任何数字，包括负数。
 4. translate按给定的数字移动纹理。' .5'将其移动一半。
 
-###### 2.$detailblendmode:
+##### 2.$detailblendmode:
 可以使用12种不同的细节混合方法。
 0 =贴图调制此功能与DecalModulate着色器相同-低于128的颜色会使图像变暗，高于128的颜色会使图像变亮。
 1 =添加剂细节纹理的颜色将添加到基础纹理中。这与$ additive相同。
@@ -360,15 +348,11 @@ author: NUA努努 | Loudomian
 
 > 一般用0模式即可，默认也是0
 
----
-title: 厉害了我的VTM 下
----
 
-# 厉害了我的VTM 下
-
-#### 五、灯泡和屏幕：自发光参数$ selfillum
+### 五、灯泡和屏幕：自发光参数$ selfillum
 自发光确定表面在何处进行自发光，而与环境照明无关。这种类型的遮罩可以使表面的像素充满来自颜色纹理的着色。（*不能与$ translucent（半透明）或$ alphatest（alpha遮罩）同时使用。*）
-##### 二级参数：
+
+#### 二级参数：
 |  |  | |
 |--|--|--|
 | $selfillumtint |调整自发光效果的颜色。默认值为“ [1 1 1]”。  | RGB数组 |
@@ -379,7 +363,7 @@ title: 厉害了我的VTM 下
 | $selfIllumFresnel | 允许材料使用菲涅耳范围。如果启用则中断。$ envmap $ normalmapalphaenvmapmask | bool | 
 | $selfIllumFresnelMinMaxExp | 默认值：[0.0 1.0 1.0] 菲涅耳范围与$phongfresnelranges类似。第一个值是最小照度，第二个值是最大照度，最后一个值是菲涅耳指数。 | 浮点数组 | 
 
-##### 例子：
+#### 例子：
 
     LightmappedGeneric
     {
@@ -389,34 +373,34 @@ title: 厉害了我的VTM 下
     }
 
 
-#### 其他参数
-##### 1.$ alpha 、$ translucent 、$ alphatest
+### 其他参数
+#### 1.$ alpha 、$ translucent 、$ alphatest
 这三个函数都是透明函数
 1. $ alpha：这个函数取值0-1的浮点数，是启用alpha通道的程度，比如basetexture有透明通道，那么我要把这个alpha开到1才能完全出现透明情况，如果是0则不透明，如果是0.5的话就是半透明，其他数值亦然。
 2. $ alphatest：这个有点不好解释，取值是0或1，大概意思是透用某一个alpha程度的通道。
 3. $ translucent：这个就是透明混合函数了，把纹理的透明和部分和不透明部分搞一个渐变，属于比较高级的操作把，总感觉用处不太大。
 
-##### 2.$ nocull
+#### 2.$ nocull
 这个函数是无视法线的函数，模型它有法线，法线射出面就是外表面，另外那面就是内表面，其中外表面可以漫反射，就是可以显示，内表面看不到，用透明代替，这个函数作用是把两面都变成外表面，都可以显示。
 **这个函数用于打开的衣服、一个面的敞开物（例如单面杯子）、一张画、纸币、一个面的头发等。**
-##### 3.$ surfaceprop
+#### 3.$ surfaceprop
 这个是用于游戏的物理属性函数，其中包含碰撞时发出什么声音、射击表面会发出什么效果、质量、浮力、弹力、表面对附近声音（混响，回声，吸收...）的影响。
 值有liquid、solid、wall等
 *这个函数在SFM里不必要。*
 
-##### 4.$ halflambert
+#### 4.$ halflambert
 它是一个布尔参数，用于启用半朗伯照明，该照明将照明进一步围绕模型以防止其丢失定义。
 它仅适用于模型。
 *注意：从Source 2007开始，VertexLitGeneric无论启用什么$ halflambert设置，$ phong都将强制启用半朗伯照明，除非启用了$ phongDisableHalfLambert*
 
 
-#### 完整的vmt实例
+### 完整的vmt实例
 下面给一个完整实例，用到的是starcold大佬的POD模型的vmt，在此感谢。
 
 ![](https://img-blog.csdnimg.cn/20200317204948929.jpg)
 
 
-
+```js
     VertexlitGeneric
     {
      $basetexture "cold\NIERPOD\robot"
@@ -432,7 +416,9 @@ title: 厉害了我的VTM 下
      $color "2"
      $lightwarptexture   "cold/lightmap"
     }
-    
+
+```
+
 用效果图作为结尾，这张图由DreamHeart梦心大佬制作，在此感谢。
 
 ![](https://img-blog.csdnimg.cn/20200317204927343.jpg)
@@ -440,8 +426,3 @@ title: 厉害了我的VTM 下
 
 
 **啊对了，如果你发现了文章有错或者你有问题想问的话不用留言，直接加SFM贴吧官方群进群问大佬们即可！**
-
-
-
-> 参考文献：valve开发者社区）
-

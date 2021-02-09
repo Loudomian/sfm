@@ -8,6 +8,7 @@ title: 汉化补丁BUG
 
 ![](https://ae01.alicdn.com/kf/HTB1zWGgT3HqK1RjSZFgq6y7JXXac.jpg)
 
+- 文字乱码
 - Workshop 订阅无法使用
 - 模型预览器字体重叠
 
@@ -21,11 +22,13 @@ title: 汉化补丁BUG
 
 ![](https://pic.downk.cc/item/5fb67a5fb18d627113b63592.jpg)
 
+- 文字乱码
 
+编码不对，请通过使用 Steam 对 SourceFilmmaker 进行验证游戏完整性，将汉化补丁删掉得以解决。
 
 - Workshop 订阅无法使用
 
-这是一个蛮严重的问题，你只能通过用 Steam 对 Source Filmmaker 验证完整性，将汉化补丁删掉得以解决。你问怎么样验证完整性？你不会 [百度](https://baidu.com) 么？
+这是一个蛮严重的问题，但无法解决，你可以使用[获取模型指南](/guide/getting-started/getting-model.html#第一步)提到的 Workshop Downloader 单独下载模型或删除汉化补丁。
 
 - 模型预览器字体重叠
 

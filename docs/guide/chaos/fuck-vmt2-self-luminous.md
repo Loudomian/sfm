@@ -1,5 +1,5 @@
 ---
-title: 自发光
+title: 自发光vmt
 author: NUA努努
 ---
 

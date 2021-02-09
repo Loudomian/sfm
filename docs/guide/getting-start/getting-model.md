@@ -3,13 +3,13 @@ title: 获取素材（模型、地图...）
 ---
 
 ::: tip 打个广告
-需要模型转格式或二次修改服务的，可以在 [这里](https://blog.soka.wang/commissions/) 查询相关信息
+需要模型转格式或二次修改服务的，可以在 [这里](https://blog.ldo.one/commissions/) 查询相关信息
 :::
 Source Filmmaker 的素材来源有两大鼎立
 - [创意工坊（ Steam Workshop )](https://steamcommunity.com/app/1840/workshop/)
 - [SFMLab（ SFM实验室 ）](https://sfmlab.com/)
 
-前者是V社的亲儿子，后者则是一群 Source Filmmaker 大佬们开的模型网站，最大的区别在于有没有 [NSFW](https://baike.baidu.com/item/NSFW/5576169) 模型。
+前者是V社的亲儿子，后者则是社区开的模型网站，最大的区别在于有没有 [NSFW](https://baike.baidu.com/item/NSFW/5576169) 模型。
 
 ## 创意工坊 （Steam Workshop）
 ::: warning 注意
@@ -20,7 +20,7 @@ Source Filmmaker 的素材来源有两大鼎立
 ::: tip 插曲
 订阅模型后，模型作者有任何更新都会自动下载下来，同样，如果模型作者删除了模型，模型也会从你的电脑里删除。
 
-为了避免模型丢失，你可以通过 [Workshop download](http://steamworkshop.download/)单独下载模型，通过 SFMLab 的方式进行导入。
+为了避免模型丢失，你可以通过 [Workshop Downloader](http://steamworkshop.download/)单独下载模型，通过 SFMLab 的方式进行导入。
 :::
 ![](https://ae01.alicdn.com/kf/HTB1CDN_T9zqK1RjSZPxq6A4tVXae.jpg)
 

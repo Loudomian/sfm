@@ -12,56 +12,56 @@ module.exports = {
         title: '🚀入门',
         collapsable: false,
         children: [
-          'download-or-start-sfm',
-          'hanization-patch',
-          'getting-model',
-          'add-media-encoder'
+          'getting-start/download-or-start-sfm',
+          'getting-start/hanization-patch',
+          'getting-start/getting-model',
+          'getting-start/add-media-encoder'
         ]
       },
       {
         title: '💡基础',
         collapsable: false,
         children: [
-          'lighting',
-          'rig'
+          'basics/lighting',
+          'basics/rig'
         ]
       },
       {
         title: '📚进阶',
         collapsable: false,
         children: [
-          'make-the-model-shiny',
-          'transfer-head',
-          'jigglebones',
-          'auto-rigger'
+          'advanced/make-the-model-shiny',
+          'advanced/transfer-head',
+          'advanced/jigglebones',
+          'advanced/auto-rigger'
         ]
       },
       {
         title: '💀混沌',
         collapsable: false,
         children: [
-          'fuck-vmt',
-          'vmt2-nua',
-          'vmt3-nua'
+          'chaos/fuck-vmt1-meet',
+          'chaos/fuck-vmt2-self-luminous',
+          'chaos/fuck-vmt3-phong'
         ]
       },
       {
         title: '🥶冷知识',
         collapsable: false,
         children: [
-          'sound-format',
-          'resolutions',
-          'sdk',
-          'nosteam'
+          'trivia/sound-format',
+          'trivia/resolutions',
+          'trivia/sdk',
+          'trivia/nosteam'
         ]
       },
       {
         title: '💩BUG',
         collapsable: false,
         children: [
-          'flash-screen',
-          'hanization-patch-bug',
-          '7-color-world'
+          'bug/flash-screen',
+          'bug/hanization-patch-bug',
+          'bug/7-color-world'
         ]
       }
     ],

@@ -2,9 +2,13 @@
 title: 汉化补丁
 ---
 
+::: danger 汉化补丁作者建议
+不要使用汉化补丁
+:::
+
 ::: warning 注意
 使用汉化补丁会导致 窗口布局全部消失（灰屏）和 Workshop订阅文件找不到 ... 
-你可以点击 [这里](https://sfm.soka.wang/guide/hanization-patch-bug.html) 最后查看解决方法！
+你可以点击 [这里](/guide/bug/hanization-patch-bug.md) 查看解决方法！
 :::
 
 ## 获取
