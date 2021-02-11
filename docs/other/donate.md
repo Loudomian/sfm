@@ -25,9 +25,17 @@ comment: false
 
 | 支付宝                                           | 微信                                       | Ko-fi                                                        |
 | ------------------------------------------------ | ------------------------------------------ | ------------------------------------------------------------ |
-| ![支付宝](https://pic.downk.cc/item/5ebd0fdac2a9a83be551b83b.jpg) | ![](https://pic.downk.cc/item/5ebd0fdac2a9a83be551b839.jpg) | [![Love](https://az743702.vo.msecnd.net/cdn/kofi2.png)](https://ko-fi.com/loudomian) |
+| ![支付宝](https://pic.downk.cc/item/5ebd0fdac2a9a83be551b83b.jpg) | ![](https://pic.downk.cc/item/5ebd0fdac2a9a83be551b839.jpg) | [![Love](https://img.imgdb.cn/item/60252b303ffa7d37b34b6ce4.png)](https://ko-fi.com/loudomian) |
 
-## 
+### 独立作者
+
+如果你认为这些作者帮到了你，欢迎向他们投喂
+
+| 独立创作者 | 支付宝 | 微信   |
+| ---------- | --------- | -------- |
+| NUA努努     |      | ![](https://img.imgdb.cn/item/60252aa03ffa7d37b34b3a1b.jpg) |
+| Mon1k4  | ![](https://img.imgdb.cn/item/60252bd63ffa7d37b34ba8b5.jpg) |    ![](https://img.imgdb.cn/item/60252aa03ffa7d37b34b3a19.jpg)      |
+
 
 
 

@@ -2,6 +2,11 @@
 title: 初识vmt
 author: NUA努努 | Loudomian
 ---
+::: tip 
+ VMT全篇作者是 NUA努努 ，你可以[通过这里](/other/donate.md#独立作者)感谢他。
+
+ Loudomian 进行重新排版。
+:::
 
 > [**Valve 开发者社区**](https://developer.valvesoftware.com/wiki/Main_Page) 提供文献技术支持
 
