@@ -33,7 +33,8 @@ IK Rig 有两种骨骼适配：```bip_``` 和 ```ValveBiped_``` 两种，根据�
 
 ::: warning 小问题
 使用通用 IK Rig 后，可能会出现修改手指部分时,软件卡顿，属于正常现象。
-可以通过使用 Auto-Rigger 制作独立 IK Rig 解决。
+
+可以通过将目前片段缩减到10秒或使用 [Auto-Rigger](/guide/advanced/auto-rigger.md) 制作独立 IK Rig 解决。
 :::
 
 ![](https://ae01.alicdn.com/kf/HTB1jEihT3HqK1RjSZFPq6AwapXaZ.jpg)

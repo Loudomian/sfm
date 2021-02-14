@@ -21,7 +21,7 @@ module.exports = {
     { text: '更新日记', link: '/categories/update/', icon: 'reco-document' },
     { text: '创作者', link: '/other/up-example.html', icon: 'reco-category' },
     { text: '留言板', link: '/other/messageBoard.html', icon: 'reco-suggestion' },
-    { text: '博客', link: 'https://blog.soka.wang', icon: 'reco-blog' },
+    { text: '主页', link: 'https://ldo.one', icon: 'reco-blog' },
     { text: 'GitHub', link: 'https://github.com/loudomian/sfm', icon: 'reco-github' }
   ]
 }

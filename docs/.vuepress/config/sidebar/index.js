@@ -60,8 +60,10 @@ module.exports = {
         collapsable: false,
         children: [
           'bug/flash-screen',
+          'bug/env-error',
           'bug/hanization-patch-bug',
-          'bug/7-color-world'
+          'bug/7-color-world',
+          'bug/document-broke'
         ]
       }
     ],

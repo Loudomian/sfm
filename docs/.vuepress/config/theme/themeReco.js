@@ -31,7 +31,8 @@ module.exports = {
     verify: true, // 验证码服务
     // notify: true, // 
     recordIP: true,
-    showComment: true
+    showComment: true,
+    meta: ['nick','mail']
   },
   // vssueConfig: {
   //   admins: ['recoluan'],
