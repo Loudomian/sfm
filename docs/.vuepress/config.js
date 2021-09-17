@@ -62,10 +62,13 @@ module.exports = {
     ],
     'flowchart',
     ['sitemap', {
-      hostname: 'https://sfm.soka.wang'
+      hostname: 'https://sfm.ldo.one',
+      dateFormatter: val => {
+        return new Date().toISOString()
+      }
     }],
     ['@vuepress-reco/rss', {
-      site_url: 'https://sfm.soka.wang',
+      site_url: 'https://sfm.ldo.one',
       copyright: ''
     }],
     require('./plugins/notification/index')
