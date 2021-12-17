@@ -11,6 +11,10 @@ title: 简介
 [哈皮的CSGO教程](https://www.bilibili.com/video/av7444659)  [NUA努努的转模教程](https://blog.csdn.net/weixin_44546865/article/details/90380893)  [HEZZEN的视频教程](https://www.bilibili.com/video/av85351980)
 :::
 
+## 你还在使用SFM吗？
+
+![](https://pic.imgdb.cn/item/61bcc3a42ab3f51d91b36958.jpg)
+
 ## 正在写啥？
 
  - 基础教程
