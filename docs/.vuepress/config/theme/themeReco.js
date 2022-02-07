@@ -51,5 +51,5 @@ module.exports = {
   // // 默认是 false, 设置为 true 来启用
   editLinks: true,
   mode: 'light',
-  logo: 'https://sc02.alicdn.com/kf/H935f1cf571d04eaf94cf95b1577b3eceP.png'
+  logo: 'https://pic.imgdb.cn/item/620116812ab3f51d910d2ab9.png'
 }

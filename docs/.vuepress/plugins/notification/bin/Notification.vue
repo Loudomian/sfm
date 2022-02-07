@@ -12,9 +12,12 @@
         <h5>欢迎加入Source Filmmaker交流QQ群
            <br />
            <br />
-           域名已经更新为 sfm.ldo.one
+           群号：293707043
            <br />
-           旧域名会自动转跳
+           <br />
+           来了解下
+           <br />
+           <a href="https://blender.ldo.one">Blender学习笔记</a>?
            <br />
         </h5>
         <img :src="require('./rvcode_qq.png')" alt="">

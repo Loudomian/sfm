@@ -24,14 +24,6 @@ export default [
     scenes: 'develop'
   },
   { 
-    name: '@vuepress-reco/kan-ban-niang', 
-    desc: '看板娘 live2d 动画。',
-    user: 'vuepress-reco',
-    repo: 'vuepress-plugin-kan-ban-niang',
-    feature: 'style',
-    scenes: 'develop'
-  },
-  { 
     name: '@vuepress-reco/comments', 
     desc: '评论功能，集成 valine 和 vssue。',
     user: 'vuepress-reco',
