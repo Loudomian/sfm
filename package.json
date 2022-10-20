@@ -1,0 +1,38 @@
+{
+  "name": "we-moved",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write pages/ *.{js,ts,json,css}"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.0.7",
+    "next-themes": "^0.0.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "@types/react": "^17.0.38",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^7.23.0",
+    "eslint-config-next": "^11.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.4.5",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^3.0.7",
+    "typescript": "^4.1.5"
+  }
+}
